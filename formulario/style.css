@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(37, 10, 62);
+    margin-left: 7%;
+}
+
+#subtitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(37,10,62);
+    margin-left: 10%;
+}
+#box{
+    display: inline-block;
+}
+fieldset{
+    border: 0px;
+}
+
+body{
+    background-color: rgb(222, 200, 243);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: rgb(90, 25, 151);
+    margin-left: 36%;
+    margin-top: 3%;
+    justify-content: center;
+    
+}
+
+input, select, textarea, button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: rgb(37,10,62);
+    border-radius: 4px;
+}
+
+.campo{
+    margin-bottom: 1em;
+
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: rgb(90, 25, 151);
+    display: block;
+
+}
+
+
+fieldset.grupo.campo {
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input [type="itext"], .campo input [type=iemail], .campo select, .campo textarea{
+    padding: .2em;
+    border: 1px solid rgb(85, 2, 164);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background: #cecef4;
+}
+
+.botao{
+    font-size: 1em;
+    background-color: rgb(90, 25, 151);
+    border: 0px;
+    margin-bottom: 1.5em;
+    color: white;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.botao:hover{
+    background: #a387f7;
+    box-shadow: inset 2px, 2px, 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+#exp{
+    margin-top: .5em;
+}
